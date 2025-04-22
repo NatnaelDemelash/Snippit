@@ -6,10 +6,10 @@ import {
   BookmarkIcon,
   UserIcon,
   EllipsisHorizontalCircleIcon,
-} from '@heroicons/react/24/outline';
-import Image from 'next/image';
-import logo from '@/public/assets/logoLight.png';
-import { SVGProps, RefAttributes, ComponentType } from 'react';
+} from "@heroicons/react/24/outline";
+import Image from "next/image";
+import logo from "@/public/assets/logoLight.png";
+import { SVGProps, RefAttributes, ComponentType } from "react";
 
 interface SidebarLinksProps {
   text: string;
