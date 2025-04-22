@@ -5,10 +5,11 @@ import {
 import Image from "next/image";
 
 import natnael from "@/public/assets/natnael.png";
+import elon from "@/public/assets/elon.png";
 
 export default function Widgets() {
   return (
-    <div className="p-3 flex flex-col space-y-4 w-[400px]">
+    <div className="p-3 hidden lg:flex flex-col space-y-4 w-[400px]">
       <div className="flex items-center space-x-3 rounded-full bg-[#EFF3F4] text-[#89959D] h-[44px] pl-5">
         <MagnifyingGlassIcon className="w-[20px] h-[20px]" />
         <input
@@ -80,6 +81,27 @@ export default function Widgets() {
             <div className="flex flex-col text-sm">
               <span className="font-bold">Natnael Demelash</span>
               <span>@natidemelash</span>
+            </div>
+          </div>
+
+          <button className="bg-[#0f1419] text-white w-[72px] h-[40px] rounded-full text-sm">
+            follow
+          </button>
+        </div>
+
+        <div className="flex justify-between items-center py-3">
+          <div className="flex items-center space-x-3">
+            <Image
+              src={elon}
+              width={56}
+              height={56}
+              alt="profile"
+              className="w-14 h-14 rounded-full"
+            />
+
+            <div className="flex flex-col text-sm">
+              <span className="font-bold">Elon Musk</span>
+              <span>@elonmusk</span>
             </div>
           </div>
 
