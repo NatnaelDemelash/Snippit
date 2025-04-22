@@ -21,12 +21,12 @@ export default function PostInput() {
         />
 
         <div className="flex justify-between">
-          <div className="flex space-x-6">
-            <PhotoIcon className="text-[#0F1419] w-[22px] h-[22px]" />
-            <ChartBarIcon className="text-[#0F1419] w-[22px] h-[22px]" />
-            <FaceSmileIcon className="text-[#0F1419] w-[22px] h-[22px]" />
-            <CalendarDaysIcon className="text-[#0F1419] w-[22px] h-[22px]" />
-            <MapPinIcon className="text-[#0F1419] w-[22px] h-[22px]" />
+          <div className="flex space-x-5">
+            <PhotoIcon className="text-[#900C3F] w-[22px] h-[22px]" />
+            <ChartBarIcon className="text-[#900C3F] w-[22px] h-[22px]" />
+            <FaceSmileIcon className="text-[#900C3F] w-[22px] h-[22px]" />
+            <CalendarDaysIcon className="text-[#900C3F] w-[22px] h-[22px]" />
+            <MapPinIcon className="text-[#900C3F] w-[22px] h-[22px]" />
           </div>
 
           <button className="bg-[#0F1419] text-white w-[80px] h-[36px] rounded-full text-sm cursor-pointer">
