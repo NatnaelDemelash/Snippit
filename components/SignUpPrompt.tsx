@@ -1,9 +1,8 @@
-import React from 'react';
-
 export default function SignUpPrompt() {
   return (
-    <div className="fixed bottom-0 flex justify-around px-16 md:px-20 items-center space-x-5 h-[90px] w-full bg-[#0f1419]">
-      <div className="text-white flex flex-col py-10 space-y-2">
+    <div className="fixed bottom-0 w-full bg-[#0f1419] h-[90px] flex flex-col md:flex-row justify-around items-center px-6 md:px-20">
+      {/* Text Section (only visible on md+) */}
+      <div className="hidden md:flex flex-col text-white space-y-1">
         <span className="text-xl md:text-2xl font-bold">
           Don't miss out on the Snippit
         </span>
@@ -12,11 +11,12 @@ export default function SignUpPrompt() {
         </span>
       </div>
 
-      <div className="flex space-x-4">
-        <button className="w-[88px] h-[40px] text-white text-sm  border-2 border-white rounded-full">
+      {/* Button Section */}
+      <div className="flex space-x-4 w-full md:w-auto mt-3 md:mt-0">
+        <button className="flex-1 md:flex-none h-[48px] md:w-[88px] md:h-[40px] text-white text-sm border-2 border-white rounded-full">
           Log In
         </button>
-        <button className="w-[88px] h-[40px] bg-white rounded-full text-sm">
+        <button className="flex-1 md:flex-none h-[48px] md:w-[88px] md:h-[40px] bg-white rounded-full text-sm">
           Sign Up
         </button>
       </div>
