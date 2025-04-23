@@ -1,6 +1,6 @@
-import React from "react";
-import PostInput from "./PostInput";
-import Post from "./Post";
+import React from 'react';
+import PostInput from './PostInput';
+import Post from './Post';
 
 export default function PostFeed() {
   return (

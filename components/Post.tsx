@@ -1,11 +1,11 @@
-import Image from "next/image";
-import profile from "@/public/assets/profilePic.png";
+import Image from 'next/image';
+import profile from '@/public/assets/profilePic.png';
 import {
   ArrowUpTrayIcon,
   ChartBarIcon,
   ChatBubbleBottomCenterIcon,
   HeartIcon,
-} from "@heroicons/react/24/outline";
+} from '@heroicons/react/24/outline';
 
 export default function Post() {
   return (
@@ -43,7 +43,7 @@ export function PostHeader() {
         alt="Profile Picture"
         width={44}
         height={44}
-        className="w-11 h-11 border-2 border-[#900C3F] rounded-full"
+        className="w-11 h-11"
       />
       <div className="text-[15px] flex flex-col space-y-1.5">
         <div className="flex space-x-1.5 text-[#707E89]">

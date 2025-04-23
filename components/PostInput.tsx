@@ -1,13 +1,13 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-import logo from "@/public/assets/logoLight.png";
+import logo from '@/public/assets/logoLight.png';
 import {
   CalendarDaysIcon,
   ChartBarIcon,
   FaceSmileIcon,
   MapPinIcon,
   PhotoIcon,
-} from "@heroicons/react/24/outline";
+} from '@heroicons/react/24/outline';
 
 export default function PostInput() {
   return (
@@ -16,7 +16,7 @@ export default function PostInput() {
 
       <div className="w-full">
         <textarea
-          className="resize-none outline-none w-full min-h-[50px] text-lg text-[#0f1419]"
+          className="resize-none outline-none w-full min-h-[50px] text-lg text-[#0f1419] border-b border-gray-200 pb-6"
           placeholder="What's happening!?"
         />
 
